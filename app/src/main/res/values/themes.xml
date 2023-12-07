@@ -1,0 +1,33 @@
+<resources xmlns:tools="http://schemas.android.com/tools">
+    <!-- Base application theme. -->
+    <style name="Base.Theme.Calculator" parent="Theme.Material3.DayNight.NoActionBar">
+        <item name="android:background">#FFFFFF</item>
+        <item name="android:fontFamily">@font/roboto</item>
+        <item name="android:statusBarColor">#FFFFFF</item>
+        <item name="android:windowLightStatusBar">true</item>
+    </style>
+
+    <style name="Number_Button">
+        <item name="android:textColor">#FFFFFF</item>
+        <item name="android:backgroundTint">#8826FF</item>
+    </style>
+
+    <style name="Operation_Button">
+        <item name="android:textColor">#FFFFFF</item>
+        <item name="android:backgroundTint">#be94a0</item>
+    </style>
+    <style name="Equals_button">
+        <item name="android:textColor">#FFFFFF</item>
+        <item name="android:backgroundTint">#390535</item>
+    </style>
+    <style name="Icon">
+        <item name="android:tint">#333333</item>
+    </style>
+    <style name="OtherBtn" parent="Widget.AppCompat.Button.Borderless">
+        <item name="android:textColor">#D796FF</item>
+    </style>
+    <style name="Line">
+        <item name="android:background">#000000</item>
+    </style>
+    <style name="Theme.Calculator" parent="Base.Theme.Calculator" />
+</resources>

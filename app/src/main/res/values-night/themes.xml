@@ -1,0 +1,37 @@
+<resources xmlns:tools="http://schemas.android.com/tools">
+    <!-- Base application theme. -->
+    <style name="Base.Theme.Calculator" parent="Theme.Material3.DayNight.NoActionBar">
+        <item name="android:background">#0E0E14</item>
+        <item name="android:fontFamily">@font/roboto</item>
+        <item name="android:statusBarColor">#0E0E14</item>
+        <item name="android:windowLightStatusBar">false</item>
+    </style>
+    <style name="Toolbar_textColor">
+        <item name="android:textColor">#FFFFFF</item>
+    </style>
+    <style name="History_Style">
+        <item name="android:background">#0E0E14</item>
+    </style>
+    <style name="Number_Button">
+        <item name="android:textColor">#FFFFFF</item>
+        <item name="android:backgroundTint">#AA7FDB</item>
+    </style>
+
+    <style name="Operation_Button">
+        <item name="android:textColor">#FFFFFF</item>
+        <item name="android:backgroundTint">#E8B5C3</item>
+    </style>
+    <style name="Equals_button">
+        <item name="android:textColor">#FFFFFF</item>
+        <item name="android:backgroundTint">#961A8D</item>
+    </style>
+    <style name="Icon">
+        <item name="android:tint">#FFFFFF</item>
+    </style>
+    <style name="Other_button">
+        <item name="android:textColor">#E3B5FF</item>
+    </style>
+    <style name="Line">
+        <item name="android:background">#FFFFFF</item>
+    </style>
+</resources>
